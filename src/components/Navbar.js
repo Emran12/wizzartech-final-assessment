@@ -1,23 +1,22 @@
 import React from "react";
-import { Link } from "react-router-dom";
-
+import { HashLink as Link } from "react-router-hash-link";
 const Navbar = () => {
   const menuItems = (
     <>
       <li>
-        <Link to="/home">Home</Link>
+        <Link to="#home">Home</Link>
       </li>
       <li>
-        <Link to="/aboutus">Home</Link>
+        <Link to="#aboutus">About Us</Link>
       </li>
       <li>
-        <Link to="/menu">Home</Link>
+        <Link to="#menu">Menu</Link>
       </li>
       <li>
-        <Link to="/blog">Home</Link>
+        <Link to="#blog">Blog</Link>
       </li>
       <li>
-        <Link to="/contactus">Home</Link>
+        <Link to="#contactus">Contact Us</Link>
       </li>
     </>
   );
@@ -26,7 +25,7 @@ const Navbar = () => {
       <div className="navbar bg-base-100">
         <div className="navbar-start">
           <div className="dropdown">
-            <label tabindex="0" className="btn btn-ghost lg:hidden">
+            <label tabIndex="0" className="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -49,11 +48,11 @@ const Navbar = () => {
               {menuItems}
             </ul>
           </div>
-          <Link to="/home" className="btn btn-ghost normal-case text-xl">
+          <Link to="#home" className="btn btn-ghost normal-case text-xl">
             Restaurant
           </Link>
         </div>
-        <div className="navbar-center hidden lg:flex">
+        <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal p-0">{menuItems}</ul>
         </div>
       </div>
