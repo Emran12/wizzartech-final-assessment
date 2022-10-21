@@ -5,6 +5,7 @@ import List from "../../components/List/List";
 import Drinks from "../../components/Drinks/Drinks";
 import Foods from "../../components/Foods/Foods";
 import Navbar from "../../components/Navbar";
+import Catalogue from "../../components/Catalogue/Catalogue";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Foods></Foods>
       <Drinks></Drinks>
       <List></List>
+      <Catalogue></Catalogue>
     </div>
   );
 };
