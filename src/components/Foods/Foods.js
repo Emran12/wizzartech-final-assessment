@@ -9,7 +9,7 @@ const Foods = () => {
       .then((data) => setFoods(data));
   }, []);
   return (
-    <div className="foodContainer mt-16">
+    <div className="foodContainer mt-16 pb-6">
       <h1 className="text-3xl font-bold menu">Menu</h1>
       <h2 className="text-2xl font-bold menu">Foods</h2>
       <div className="foods">
@@ -20,7 +20,7 @@ const Foods = () => {
             </figure>
             <div class="flex justify-between">
               <h2 class="card-title">{food.name}</h2>
-              <h2 className="text-end p-2">{food.price}</h2>
+              <h2 className="card-title text-end p-2">{food.price}</h2>
             </div>
           </div>
         ))}
