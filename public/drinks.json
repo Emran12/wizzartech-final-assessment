@@ -1,26 +1,16 @@
+
+
 [
-    {
-        "id": 1, 
-        "name": "Burger", 
-        "img": "https://i.ibb.co/cbqdwww/burger.jpg",
-        "price": 5
-    },
-    {
-        "id": 2, 
-        "name": "Dumplings", 
-        "img": "https://i.ibb.co/6D5pTL8/dumplings.jpg",
-        "price": 5
-    },
-    {
-        "id": 3, 
-        "name": "Grilled", 
-        "img": "https://i.ibb.co/NnN5qqf/grilled.jpg",
-        "price": 5
-    },
-    {
-        "id": 4, 
-        "name": "Sandwiches", 
-        "img": "https://i.ibb.co/8NgTnMs/sandwiches.jpg",
-        "price": 5
-    }
+   {
+     "id": 1, 
+    "name": "Cola With Ice", 
+    "img": "https://i.ibb.co/s3r4rsm/fresh-cola-drink-glass.jpg", 
+    "price": 10
+   },
+   {
+     "id": 2, 
+    "name": "Fresh Cola", 
+    "img": "https://i.ibb.co/GQn191z/glass-cola-with-ice.jpg", 
+    "price": 10
+   }
 ]

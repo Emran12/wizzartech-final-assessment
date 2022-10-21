@@ -1,0 +1,36 @@
+ .foodContainer {
+     margin: 20px;
+ }
+
+@media screen and (max-width: 480px){
+    .foods{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .foods {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .foods {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 15px;
+    }
+}
+@media screen and (min-width: 1025px) {
+    .foodContainer{
+        margin: 25px;
+    }
+    .foods {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 15px;
+    }
+}
