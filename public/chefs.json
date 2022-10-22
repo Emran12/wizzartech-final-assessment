@@ -1,0 +1,33 @@
+
+[
+    {
+        "id": 1, 
+        "name": "John", 
+        "img": "https://i.ibb.co/fXnnmh3/John-chef.png",
+        "status": "Executive", 
+        "linkedin": "https://www.linkedin.com/in/chef-john-davis-a5b176121",
+        "fb": "https://www.facebook.com/profile.php?id=100083096513778", 
+        "twitter": "https://twitter.com/joh", 
+        "instagram": "https://www.instagram.com/"
+    },
+    {
+        "id": 2, 
+        "name": "Mary", 
+        "img": "https://i.ibb.co/qM79mYy/Mary-circle-img.png",
+        "status": "Executive", 
+        "linkedin": "https://www.linkedin.com/in/chef-john-davis-a5b176121",
+        "fb": "https://www.facebook.com/profile.php?id=100083096513778", 
+        "twitter": "https://twitter.com/joh", 
+        "instagram": "https://www.instagram.com/"
+    },
+    {
+        "id": 3, 
+        "name": "Latham", 
+        "img": "https://i.ibb.co/RyvQhX0/Latham-chef.png",
+        "status": "Executive", 
+        "linkedin": "https://www.linkedin.com/in/chef-john-davis-a5b176121",
+        "fb": "https://www.facebook.com/profile.php?id=100083096513778", 
+        "twitter": "https://twitter.com/joh", 
+        "instagram": "https://www.instagram.com/"
+    }
+]

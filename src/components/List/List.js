@@ -35,7 +35,8 @@ const List = () => {
                       src={food.img}
                       width="30px"
                       height="50px"
-                      className="rounded"
+                      className="rounded ml-2
+                      "
                     ></img>
                     <p>{food.name}</p>
                   </Td>
