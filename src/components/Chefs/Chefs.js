@@ -32,7 +32,7 @@ const Chefs = () => {
             <div class="card-body items-center text-center">
               <h2 class="card-title">{chef.name}</h2>
               <div class="text-center text-2xl">{chef.status}</div>
-              <div className="flex justify-between">
+              <div className="flex gap-3">
                 <a href={chef.fb} target="_blank" rel="noreferrer noopener">
                   <img src={fb} alt="" width={"20px"} height={"20px"}></img>
                 </a>

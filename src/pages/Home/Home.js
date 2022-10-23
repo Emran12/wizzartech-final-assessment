@@ -7,6 +7,7 @@ import Foods from "../../components/Foods/Foods";
 import Navbar from "../../components/Navbar";
 import Catalogue from "../../components/Catalogue/Catalogue";
 import Chefs from "../../components/Chefs/Chefs";
+import ContactUs from "../../components/Contact Us/ContactUs";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <AboutUs></AboutUs>
       <Catalogue></Catalogue>
       <Chefs></Chefs>
+      <ContactUs></ContactUs>
     </div>
   );
 };

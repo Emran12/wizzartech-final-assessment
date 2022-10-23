@@ -20,7 +20,7 @@ const AboutUs = () => {
             nourishment that is not normal for that at some other Canadian
             eatery you visit.
           </p>
-          <ul className="text-xl list-disc list-inside leading-8 pt-6 text-orange-400 font-serif ">
+          <ul className="text-xl list-disc list-inside leading-8 pt-6 bg-white text-green-600 font-serif ">
             <li> Delicious & Healthy Foods</li>
             <li>Specific Family & Kids Zone</li>
             <li> Best Price & Offers</li>
