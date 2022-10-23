@@ -3,6 +3,11 @@
  }
 
  @media screen and (max-width: 480px) {
+    .drinksContainer {
+            display: flex;
+           justify-content: center;
+           justify-items: center;
+        }
      .drinks {
          display: grid;
          grid-template-columns: 1fr;
@@ -13,7 +18,7 @@
  @media screen and (min-width: 481px) and (max-width: 768px) {
      .drinks {
          display: grid;
-         grid-template-columns: 1fr 1fr;
+         grid-template-columns: 1fr 1fr 1fr;
          grid-gap: 15px;
      }
  }
@@ -21,19 +26,19 @@
  @media screen and (min-width: 769px) and (max-width: 1024px) {
      .drinks {
          display: grid;
-         grid-template-columns: 1fr 1fr 1fr;
+         grid-template-columns: 1fr 1fr 1fr 1fr;
          grid-gap: 15px;
      }
  }
 
  @media screen and (min-width: 1025px) {
      .drinksContainer {
-         margin: 25px;
+         margin: 35px;
      }
 
      .drinks {
          display: grid;
-         grid-template-columns: 1fr 1fr 1fr 1fr;
+         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
          grid-gap: 15px;
      }
  }

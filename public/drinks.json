@@ -1,5 +1,4 @@
 
-
 [
    {
      "id": 1, 
@@ -11,6 +10,85 @@
      "id": 2, 
     "name": "Fresh Cola", 
     "img": "https://i.ibb.co/GQn191z/glass-cola-with-ice.jpg", 
+    "price": 10
+   },
+   {
+     "id": 3, 
+    "name": "Uro", 
+    "img": "https://i.ibb.co/w617XZS/uro.jpg", 
+    "price": 10
+   },
+   {
+     "id": 4, 
+    "name": "Steaz", 
+    "img": "https://i.ibb.co/tmRxP7q/stez.jpg", 
+    "price": 10
+   },
+
+   {
+     "id": 6, 
+    "name": "Royal Tiger", 
+    "img": "https://i.ibb.co/PFTN6Gg/royel-tiger.jpg", 
+    "price": 10
+   },
+   {
+     "id": 7, 
+    "name": "Red Bull", 
+    "img": "https://i.ibb.co/k4vhWSB/redbull.jpg", 
+    "price": 10
+   },
+   {
+     "id": 8, 
+    "name": "Mirinda", 
+    "img": "https://i.ibb.co/HTD0hS9/mirinda.jpg", 
+    "price": 10
+   },
+   {
+     "id": 9, 
+    "name": "Iced Tea", 
+    "img": "https://i.ibb.co/kXjZTTd/iced-tea.jpg", 
+    "price": 10
+   },
+   {
+     "id": 10, 
+    "name": "Diet Coke", 
+    "img": "https://i.ibb.co/0jwfgP3/diet-coke.jpg", 
+    "price": 10
+   },
+   {
+     "id": 11, 
+    "name": "Cream Soda", 
+    "img": "https://i.ibb.co/yQ5LgC5/cream-soda.jpg", 
+    "price": 10
+   },
+   {
+     "id": 12, 
+    "name": "Cornish Orchards", 
+    "img": "https://i.ibb.co/9GtPqLJ/cornish-orchards.jpg", 
+    "price": 10
+   },
+   {
+     "id": 13, 
+    "name": "Chupa Chups", 
+    "img": "https://i.ibb.co/5hTmDG6/chupa-chups.jpg", 
+    "price": 10
+   },
+   {
+     "id": 14, 
+    "name": "Canada Dry", 
+    "img": " https://i.ibb.co/wzxzXjH/canada-dry.jpg", 
+    "price": 10
+   },
+   {
+     "id": 15, 
+    "name": "Bigg Liche", 
+    "img": "https://i.ibb.co/tMF1kbH/bigg-liche.jpg", 
+    "price": 10
+   },
+   {
+     "id": 16, 
+    "name": "7up", 
+    "img": "https://i.ibb.co/D4NVfhn/7up.jpg", 
     "price": 10
    }
 ]

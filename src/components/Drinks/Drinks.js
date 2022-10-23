@@ -15,7 +15,11 @@ const Drinks = () => {
         {drinks.map((drink) => (
           <div class="card card-compact w-fit  bg-base-100 shadow-xl">
             <figure>
-              <img src={drink.img} width="50%" height="60%" alt="drinks" />
+              <img
+                src={drink.img}
+                className="h-[200px] w-[220px]"
+                alt="drinks"
+              />
             </figure>
             <div class="flex justify-between">
               <h2 class="pl-4 pt-4">{drink.name}</h2>

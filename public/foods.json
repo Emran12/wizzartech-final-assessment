@@ -1,3 +1,15 @@
+
+
+
+
+
+
+
+
+
+
+
+
 [
     {
         "id": 1, 
@@ -22,5 +34,66 @@
         "name": "Sandwiches", 
         "img": "https://i.ibb.co/8NgTnMs/sandwiches.jpg",
         "price": 5
+    },
+    {
+        "id": 5, 
+        "name": "Zander Filet", 
+        "img": "https://i.ibb.co/Y33r7VD/zander-filet.jpg",
+        "price": 5
+    },
+    {
+        "id": 6, 
+        "name": "Touton", 
+        "img": "https://i.ibb.co/TbKRFxG/Touton.jpg",
+        "price": 5
+    },
+    {
+        "id": 7, 
+        "name": "Tourtiere Viande", 
+        "img": "https://i.ibb.co/hyHv35x/Tourtiere-viande.jpg",
+        "price": 5
+    },
+    {
+        "id": 8, 
+        "name": "Schwartz Smoked Meat", 
+        "img": "https://i.ibb.co/7b9z7FP/Schwartz-smoked-meat-montreal.jpg",
+        "price": 5
+    },
+    {
+        "id": 9, 
+        "name": "Saskatoonberry Pie", 
+        "img": "https://i.ibb.co/1rDBSC7/Saskatoonberry-pie.jpg",
+        "price": 5
+    },
+    {
+        "id": 10, 
+        "name": "Poutine", 
+        "img": "https://i.ibb.co/bBzXwS3/poutine.jpg",
+        "price": 5
+    },
+    {
+        "id": 11, 
+        "name": "Ploye", 
+        "img": "https://i.ibb.co/4R8hLRM/Ploye.jpg",
+        "price": 5
+    },
+    {
+        "id": 12, 
+        "name": "Pecan Butter Tart", 
+        "img": "https://i.ibb.co/7bLVHpQ/Pecan-butter-tart.jpg",
+        "price": 5
+    },
+    {
+        "id": 17, 
+        "name": "Blueberry Grunt", 
+        "img": "https://i.ibb.co/kBVC8hy/blueberry-grunt.jpg",
+        "price": 5
+    },
+    {
+        "id": 18, 
+        "name": "Bannoc", 
+        "img": "https://i.ibb.co/NNpTd6s/Bannoc.jpg",
+        "price": 5
     }
+    
 ]

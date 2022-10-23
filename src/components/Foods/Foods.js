@@ -16,11 +16,15 @@ const Foods = () => {
         {foods.map((food) => (
           <div class="card card-compact w-fit bg-base-100 shadow-xl">
             <figure>
-              <img src={food.img} alt="Shoes" />
+              <img src={food.img} width="350px" height="200px" alt="Shoes" />
             </figure>
-            <div class="flex justify-between">
-              <h2 class="card-title">{food.name}</h2>
-              <h2 className="card-title text-end p-2">{food.price}</h2>
+            <div class="flex justify-between mt-3">
+              <h2 class="text-orange-400 pl-5 text-lg font-semibold">
+                {food.name}
+              </h2>
+              <h2 className="text-end pr-4 mt-2 text-orange-400">
+                ${food.price}.00
+              </h2>
             </div>
           </div>
         ))}
