@@ -1,0 +1,23 @@
+@media screen and (max-width: 480px) {
+    .blogs {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+    .blogs {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .blogs {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 15px;
+    }
+}
