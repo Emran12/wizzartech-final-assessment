@@ -27,7 +27,7 @@ const AboutUs = () => {
             <li> Made by Fresh Ingredients</li>
           </ul>
         </div>
-        <div>
+        <div className="video">
           <video
             src={promoVideo}
             width="full"

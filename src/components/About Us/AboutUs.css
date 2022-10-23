@@ -13,26 +13,17 @@
     }
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
-    .aboutUsContainer {
-        display: flex;
-        flex-direction: column;
-        column-gap: 15px;
-    }
-        .aboutUs {
-            width: 75%;
-        }
-}
-
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .aboutUsContainer {
         display: flex;
         flex-direction: row;
         column-gap: 20px;
-    }
-        .aboutUs {
-            width: 80%;
-        }
+    }  
+    /* .video{
+        display: flex;
+        justify-items: center;
+        justify-content: center;
+    }     */
 }
 
 @media screen and (min-width: 1025px) {
@@ -40,12 +31,7 @@
         display: flex;
         flex-direction: row;
         column-gap: 25px;
-    }
-    .aboutUs{
-        width: 90%;
-    }
-
-    
+    } 
 }
 
  

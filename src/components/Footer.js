@@ -5,7 +5,7 @@ import fb from "../assets/icons/fb.png";
 
 const Footer = () => {
   return (
-    <footer className="footer p-10 bg-base-300 text-base-content">
+    <footer className="footer mt-3 p-10 bg-base-300 text-base-content">
       <div>
         <span className="footer-title text-orange-800 ">Services</span>
         <a className="">Delicious & Healthy Foods</a>

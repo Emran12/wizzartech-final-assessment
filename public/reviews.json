@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Smith", 
+        "img": "https://i.ibb.co/5LHH3cC/buyer3.jpg",
+        "description": "This place is great!Food is pretty good, some italian classics and some twists, and for their prices it’s 100% worth ",
+        "ratings": "https://i.ibb.co/f9hrwwy/5stars.png"
+
+    },
+    {
+        "id": 2,
+        "name": "David", 
+        "img":"https://i.ibb.co/r6HBMK9/buyer1.png",
+        "description": " Food is stunning, both the tapas and downstairs restaurant. Cocktails wow, wine great and lovely selection of beers. Love this place and will continue to visit.",
+        "ratings": "https://i.ibb.co/f9hrwwy/5stars.png"
+
+    },
+    {
+        "id": 3,
+        "name": "Roy", 
+        "img":"https://i.ibb.co/SvHd9Ng/buyer2.jpg",
+        "description": " This cozy restaurant has left the best impressions! Hospitable hosts, delicious dishes, beautiful presentation, wide wine list and wonderful dessert. I recommend to everyone! I would like to come back here again and again. ",
+        "ratings": "https://i.ibb.co/f9hrwwy/5stars.png"
+
+    }
+]

@@ -1,27 +1,26 @@
- .drinksContainer {
-     margin: 20px;
- }
-
  @media screen and (max-width: 480px) {
-     .drinks {
+     .reviews {
+        margin: 20px;
          display: grid;
          grid-template-columns: 1fr;
          grid-gap: 15px;
      }
  }
-
- @media screen and (min-width: 481px) and (max-width: 1024px) {
-     .drinks {
+ 
+ @media screen and (min-width: 769px) and (max-width: 1024px) {
+     .reviews {
          display: grid;
-         grid-template-columns: 1fr 1fr 1fr;
+         grid-template-columns: repeat(2, 1fr);
          grid-gap: 15px;
+         margin: 20px;
      }
  }
 
  @media screen and (min-width: 1025px) {
-     .drinks {
+     .reviews {
          display: grid;
-         grid-template-columns: 1fr 1fr 1fr 1fr;
+         grid-template-columns: repeat(3, 1fr);
          grid-gap: 15px;
+         margin: 40px;
      }
  }

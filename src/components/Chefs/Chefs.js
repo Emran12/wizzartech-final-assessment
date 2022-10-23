@@ -14,7 +14,7 @@ const Chefs = () => {
   }, []);
   return (
     <div className="relative">
-      <h1 className="text-center text-3xl text-orange-600">
+      <h1 className="text-center text-3xl text-orange-800">
         Meet Our Expart Chefs
       </h1>
       <p className="text-center mt-3 text-lg leading-6">
