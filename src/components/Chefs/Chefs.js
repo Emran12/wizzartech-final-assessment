@@ -18,13 +18,11 @@ const Chefs = () => {
       <div className="mt-20 chefs">
         {chefs.map((chef) => (
           <div class="card w-96 bg-base-100 shadow-xl ">
-            <figure class="px-10 pt-10">
-              <div class="avatar">
-                <div class="max-w-[50%] rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-                  <img src={chef.img} />
-                </div>
+            <div class="avatar justify-center">
+              <div class="max-w-[50%] rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                <img src={chef.img} />
               </div>
-            </figure>
+            </div>
             <div class="card-body items-center text-center">
               <h2 class="card-title">{chef.name}</h2>
               <div class="card-actions"></div>

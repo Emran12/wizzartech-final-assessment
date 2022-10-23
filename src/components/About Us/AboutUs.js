@@ -1,5 +1,5 @@
 import React from "react";
-import { Player } from "video-react";
+import promoVideo from "../About Us/promo-video.mp4";
 
 const AboutUs = () => {
   return (
@@ -9,9 +9,14 @@ const AboutUs = () => {
         <p>lorem lorem lorem </p>
       </div>
       <div>
-        <Player>
-          <source src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4" />
-        </Player>
+        <video
+          src={promoVideo}
+          width="full"
+          height="500"
+          controls
+          autoPlay
+          muted
+        ></video>
       </div>
     </div>
   );

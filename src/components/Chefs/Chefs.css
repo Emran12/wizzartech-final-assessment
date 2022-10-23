@@ -1,32 +1,8 @@
-
- @media screen and (max-width: 480px) {
-     .chefs{
-         display: grid;
-         grid-template-columns: 1fr;
-         grid-gap: 15px;
-     }
- }
-
- @media screen and (min-width: 481px) and (max-width: 768px) {
-     .chefs {
-         display: grid;
-         grid-template-columns: 1fr 1fr;
-         grid-gap: 30px;
-     }
- }
-
- @media screen and (min-width: 769px) and (max-width: 1024px) {
-     .chefs {
-         display: grid;
-         grid-template-columns: 1fr 1fr 1fr;
-         grid-gap: 15px;
-     }
- }
-
- @media screen and (min-width: 1025px) {
-     .chefs {
-         display: grid;
-         grid-template-columns: 1fr 1fr 1fr;
-         grid-gap: 30px;
-     }
- }
+.chefs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 10px;
+}
+ 
