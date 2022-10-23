@@ -12,10 +12,12 @@ const List = () => {
   }, []);
   return (
     <div className="">
-      <h1>All Products List</h1>
+      <h1 className="text-3xl text-orange-600  text-center">
+        All Products List
+      </h1>
       <div className="m-10 list">
         <div>
-          <h1>Foods</h1>
+          <h1 className="text-2xl text-orange-600 pb-3 font-bold">Foods</h1>
           <Table>
             <Thead className="border-2 bg-red-200">
               <Tr>

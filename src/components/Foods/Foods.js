@@ -10,15 +10,17 @@ const Foods = () => {
   }, []);
   return (
     <div className="foodContainer mt-16 pb-6">
-      <h1 className="text-3xl font-bold menu">Menu</h1>
-      <h2 className="text-2xl font-bold menu">Foods</h2>
+      <h2 className="text-2xl font-bold menu text-orange-600 pb-3">Foods</h2>
       <div className="foods">
         {foods.map((food) => (
-          <div class="card card-compact w-fit bg-base-100 shadow-xl">
+          <div
+            class="card card-compact w-fit bg-base-100 shadow-xl "
+            key={food.id}
+          >
             <figure>
               <img src={food.img} width="350px" height="200px" alt="Shoes" />
             </figure>
-            <div class="flex justify-between mt-3">
+            <div class="flex justify-between mt-3 pb-3">
               <h2 class="text-orange-400 pl-5 text-lg font-semibold">
                 {food.name}
               </h2>

@@ -12,7 +12,7 @@ const DrinkList = () => {
   return (
     <div>
       <div className="">
-        <h1>Drinks</h1>
+        <h1 className="text-2xl text-orange-600 pb-3 font-bold">Drinks</h1>
         <Table>
           <Thead className="border-2 bg-red-200">
             <Tr>
@@ -36,8 +36,18 @@ const DrinkList = () => {
                   ></img>
                   <p>{drink.name}</p>
                 </Td>
-                <Td className="text-center">12</Td>
-                <Td className="text-center">In Stock</Td>
+                {drink.id % 5 === 0 ? (
+                  <Td className="text-center text-red-700">0</Td>
+                ) : (
+                  <Td className="text-center text-green-700">{drink.id * 2}</Td>
+                )}
+                {drink.id % 5 === 0 ? (
+                  <Td className="text-center text-red-700 line-through">
+                    Out of Stock
+                  </Td>
+                ) : (
+                  <Td className="text-center text-green-700">In Stock</Td>
+                )}
                 <Td className="text-center">{drink.price}</Td>
               </Tr>
             </Tbody>
