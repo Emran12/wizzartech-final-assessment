@@ -8,6 +8,7 @@ import Navbar from "../../components/Navbar";
 import Catalogue from "../../components/Catalogue/Catalogue";
 import Chefs from "../../components/Chefs/Chefs";
 import ContactUs from "../../components/Contact Us/ContactUs";
+import Footer from "../../components/Footer";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Catalogue></Catalogue>
       <Chefs></Chefs>
       <ContactUs></ContactUs>
+      <Footer></Footer>
     </div>
   );
 };
