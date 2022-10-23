@@ -24,8 +24,8 @@ const Drinks = () => {
                 alt="drinks"
               />
             </figure>
-            <div class="flex justify-between text-lg text-orange-400 pb-3">
-              <h2 class="pl-4 pt-4">{drink.name}</h2>
+            <div class="flex justify-between text-lg text-emerald-600 pb-3">
+              <h2 class="pl-4 pt-4 ">{drink.name}</h2>
               <h2 className="text-end p-2 pr-4 pt-4">${drink.price}.00</h2>
             </div>
           </div>

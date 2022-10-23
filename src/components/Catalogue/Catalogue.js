@@ -14,7 +14,7 @@ const Catalogue = () => {
       <h1 className="text-4xl text-orange-600 pb-3 font-bold text-center">
         Menu
       </h1>
-      <h2 className="text-xl text-center">
+      <h2 className="text-xl pb-3 text-orange-600">
         Choose Your Favourite Foods and Drinks
       </h2>
       <select

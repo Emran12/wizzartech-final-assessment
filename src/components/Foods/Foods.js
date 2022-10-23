@@ -20,13 +20,9 @@ const Foods = () => {
             <figure>
               <img src={food.img} width="350px" height="200px" alt="Shoes" />
             </figure>
-            <div class="flex justify-between mt-3 pb-3">
-              <h2 class="text-orange-400 pl-5 text-lg font-semibold">
-                {food.name}
-              </h2>
-              <h2 className="text-end pr-4 mt-2 text-orange-400">
-                ${food.price}.00
-              </h2>
+            <div class="flex justify-between mt-3 pb-3 text-emerald-600">
+              <h2 class=" pl-5 text-lg font-semibold">{food.name}</h2>
+              <h2 className="text-end pr-4 mt-2">${food.price}.00</h2>
             </div>
           </div>
         ))}
