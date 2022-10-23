@@ -43,14 +43,14 @@ const Banner = () => {
   };
 
   return (
-    <div class="container">
+    <div class="">
       <Slider {...settings}>
         {images.map((item) => (
           <div key={item.id}>
             <img src={item.src} alt={item.alt} className="w-full h-screen" />
-            <div className="centered">
+            {/* <div className="centered">
               <p className="">fdklfjdksfj</p>
-            </div>
+            </div> */}
           </div>
         ))}
       </Slider>
